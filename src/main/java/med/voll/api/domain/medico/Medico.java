@@ -37,11 +37,6 @@ public class Medico {
         this.especialidad = datosRegistroMedico.especialidad();
         this.direccion = new Direccion(datosRegistroMedico.direccion());
     }
-
-    public Medico() {
-
-    }
-
     public void actualizarDatos(DatosActualizarMedico datosActualizarMedico) {
         if(datosActualizarMedico.nombre() != null)
         {
